@@ -1,11 +1,12 @@
 import os
 from dotenv import load_dotenv
 
-# load .env
-load_dotenv()
 
-# template:
-# VARIABLE = os.getenv('VARIABLE')
+load_dotenv(os.path.join(os.getcwd(), '.env'))
+
+
+path_1 = os.path.join(os.getcwd(), '.env')
+
 
 MLFLOW_TRACKING_URI = os.getenv('MLFLOW_TRACKING_URI')
 MLFLOW_TRACKING_USERNAME = os.getenv('MLFLOW_TRACKING_USERNAME')
