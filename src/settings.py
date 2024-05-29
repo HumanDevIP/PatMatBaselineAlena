@@ -1,11 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-
 load_dotenv(os.path.join(os.getcwd(), '.env'))
-
-
-path_1 = os.path.join(os.getcwd(), '.env')
 
 
 MLFLOW_TRACKING_URI = os.getenv('MLFLOW_TRACKING_URI')
