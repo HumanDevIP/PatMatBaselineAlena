@@ -6,6 +6,7 @@ artifacts/*
 .ipynb_checkpoints
 __pycache__
 data/*.parquet
+data/*.jsonl
 venv
 notebooks/mlruns/
 notebooks/results/
