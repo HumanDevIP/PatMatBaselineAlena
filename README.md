@@ -36,7 +36,7 @@ If you run the experiment on your local machine you may want to preliminarily cr
 The preprocessing notebook will install all necessary dependencies from requirements.txt file, read the .parquet files, clean up the dataset, prepare it for future training (splitting into train, validation and test sets) and save the 3 sets into .jsonl files into the data folder.
 
 ### 5. Run the notebooks/experiment.ipynb file
-The experiment notebook will download the base transformers model and tokenizer for it, read the 3 sets (train, validation and test) from .jsonl files in data folder, train the model, save the best and the last model in the created models folder and log the metrics, hyperparameters and artifacts to mlflow.
+The experiment notebook will download the base transformers model and tokenizer for it, read the 3 sets (train, validation and test) from .jsonl files in data folder, train the model, save the best and the last model in the created "models" folder and log the metrics, hyperparameters and artifacts to mlflow.
 
 
 ## Compute Environment Information 
