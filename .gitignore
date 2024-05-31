@@ -1,5 +1,13 @@
 .env
-artifacts/*
-!artifacts/.gitkeep
 mlruns/*
 !mlruns/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+.ipynb_checkpoints
+__pycache__
+data/*.parquet
+data/*.jsonl
+venv
+notebooks/mlruns/
+notebooks/results/
+models
