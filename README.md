@@ -23,6 +23,7 @@ The small sample of the PatentMatch dataset is provided in the train.parquet and
 ```
 git clone git@github.com:HumanDevIP/PatMatBaselineAlena.git
 ```
+If you run the experiment on Colab, put the cloned PatMatBaselineAlena folder on you Google drive in the root foolder.
 
 ### 2. Put the dataset into the data folder
 To start the experiment, download the .parquet files from Google Drive and place them in the data folder of the project directory.
