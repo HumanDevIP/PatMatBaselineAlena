@@ -1,10 +1,10 @@
 # Early Baseline PatentMatch Paragraph Classification
 
 
-Link to Plan of Experiment: <a href:=https://www.notion.so/Early-baseline-for-claim-cited-paragraph-classification-on-PatentMatch-Alena-fca8a73a8cc94544845944be9aed1087>Link</a>.
+Link to Plan of Experiment: <a href:=https://www.notion.so/Early-baseline-for-claim-cited-paragraph-classification-on-PatentMatch-Alena-fca8a73a8cc94544845944be9aed1087>Link</a>
 
 
-Link to Full Report: <a href:=https://www.notion.so/Report-Alena-Early-Baseline-PatentMatch-Paragraph-Classification-7b3fbf5890eb4a5b8b4c08bb2f3625b8>Link</a>.
+Link to Full Report: <a href:=https://www.notion.so/Report-Alena-Early-Baseline-PatentMatch-Paragraph-Classification-7b3fbf5890eb4a5b8b4c08bb2f3625b8>Link</a>
 
 
 ## Goal of the experiment
@@ -13,7 +13,7 @@ Link to Full Report: <a href:=https://www.notion.so/Report-Alena-Early-Baseline-
 
 
 ## Data
-The small sample of the PatentMatch dataset is provided in the train.parquet and test.parquet files available on <a href:=https://drive.google.com/drive/folders/16JQErGdej1Z33RIwUCoPAdNc6QY59iyl>Google Drive</a>.
+The small sample of the PatentMatch dataset is provided in the train.parquet and test.parquet files available on <a href:=https://drive.google.com/drive/folders/16JQErGdej1Z33RIwUCoPAdNc6QY59iyl>Google Drive</a>
 
 
 ## How to run the experiment
@@ -32,7 +32,7 @@ To start the experiment, download the .parquet files from Google Drive and place
 Put the credentials into .env file with MLFLOW_TRACKING_URI, MLFLOW_TRACKING_USERNAME and MLFLOW_TRACKING_PASSWORD environment variables in the root of the project directory.
 
 ### 4. Run the notebooks/preprocessing.ipynb file
-If you run the experiment on your local machine you may want to preliminarily create virtual environment, see <a href:=https://docs.python.org/3/library/venv.html>here</a>.
+If you run the experiment on your local machine you may want to preliminarily create virtual environment, see <a href:=https://docs.python.org/3/library/venv.html>here</a>
 The preprocessing notebook will install all necessary dependencies from requirements.txt file, read the .parquet files, clean up the dataset, prepare it for future training (splitting into train, validation and test sets) and save the 3 sets into .jsonl files into the data folder.
 
 ### 5. Run the notebooks/experiment.ipynb file
