@@ -32,7 +32,8 @@ To start the experiment, download the .parquet files from Google Drive and place
 Put the credentials into .env file with MLFLOW_TRACKING_URI, MLFLOW_TRACKING_USERNAME and MLFLOW_TRACKING_PASSWORD environment variables in the root of the project directory.
 
 ### 4. Run the notebooks/preprocessing.ipynb file
-If you run the experiment on your local machine you may want to preliminarily create virtual environment, see [here](https://docs.python.org/3/library/venv.html)
+If you run the experiment on your local machine you may want to preliminarily create virtual environment, see [here](https://docs.python.org/3/library/venv.html).
+
 The preprocessing notebook will install all necessary dependencies from requirements.txt file, read the .parquet files, clean up the dataset, prepare it for future training (splitting into train, validation and test sets) and save the 3 sets into .jsonl files into the data folder.
 
 ### 5. Run the notebooks/experiment.ipynb file
